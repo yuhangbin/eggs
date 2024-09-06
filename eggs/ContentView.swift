@@ -8,15 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedDirectory: Directory?
+    @State private var searchText = ""
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            DirectoryListView(selectedDirectory: $selectedDirectory)
+            MemoListView(directory: selectedDirectory, searchText: $searchText)
         }
-        .padding()
+        .searchable(text: $searchText)
     }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+// Temporary placeholder for Directory struct
+struct Directory: Identifiable {
+    let id = UUID()
+    var name: String
 }
 
 #Preview {

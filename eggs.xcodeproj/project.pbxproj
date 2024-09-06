@@ -14,6 +14,14 @@
 		57E10E062C860C2500BAEDB3 /* eggsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E052C860C2500BAEDB3 /* eggsTests.swift */; };
 		57E10E102C860C2500BAEDB3 /* eggsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E0F2C860C2500BAEDB3 /* eggsUITests.swift */; };
 		57E10E122C860C2500BAEDB3 /* eggsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E112C860C2500BAEDB3 /* eggsUITestsLaunchTests.swift */; };
+		57E10E1F2C875E7900BAEDB3 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E1E2C875E7900BAEDB3 /* Memo.swift */; };
+		57E10E212C875E9B00BAEDB3 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E202C875E9B00BAEDB3 /* Directory.swift */; };
+		57E10E232C875EE900BAEDB3 /* DirectoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E222C875EE900BAEDB3 /* DirectoryListView.swift */; };
+		57E10E252C875F1600BAEDB3 /* MemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E242C875F1600BAEDB3 /* MemoListView.swift */; };
+		57E10E272C875F3C00BAEDB3 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E262C875F3B00BAEDB3 /* RecordingView.swift */; };
+		57E10E2A2C875F9C00BAEDB3 /* MemoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E292C875F9C00BAEDB3 /* MemoDetailView.swift */; };
+		57E10E2C2C875FE900BAEDB3 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E2B2C875FE900BAEDB3 /* AudioManager.swift */; };
+		57E10E2E2C87601000BAEDB3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E10E2D2C87601000BAEDB3 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		57E10E0B2C860C2500BAEDB3 /* eggsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eggsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E10E0F2C860C2500BAEDB3 /* eggsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggsUITests.swift; sourceTree = "<group>"; };
 		57E10E112C860C2500BAEDB3 /* eggsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57E10E1E2C875E7900BAEDB3 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		57E10E202C875E9B00BAEDB3 /* Directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
+		57E10E222C875EE900BAEDB3 /* DirectoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryListView.swift; sourceTree = "<group>"; };
+		57E10E242C875F1600BAEDB3 /* MemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListView.swift; sourceTree = "<group>"; };
+		57E10E262C875F3B00BAEDB3 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		57E10E292C875F9C00BAEDB3 /* MemoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailView.swift; sourceTree = "<group>"; };
+		57E10E2B2C875FE900BAEDB3 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		57E10E2D2C87601000BAEDB3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +110,19 @@
 		57E10DF32C860C2400BAEDB3 /* eggs */ = {
 			isa = PBXGroup;
 			children = (
+				57E10E282C875F5B00BAEDB3 /* view */,
 				57E10DF42C860C2400BAEDB3 /* eggsApp.swift */,
 				57E10DF62C860C2400BAEDB3 /* ContentView.swift */,
 				57E10DF82C860C2500BAEDB3 /* Assets.xcassets */,
 				57E10DFA2C860C2500BAEDB3 /* Preview Content */,
+				57E10E1E2C875E7900BAEDB3 /* Memo.swift */,
+				57E10E202C875E9B00BAEDB3 /* Directory.swift */,
+				57E10E222C875EE900BAEDB3 /* DirectoryListView.swift */,
+				57E10E242C875F1600BAEDB3 /* MemoListView.swift */,
+				57E10E262C875F3B00BAEDB3 /* RecordingView.swift */,
+				57E10E292C875F9C00BAEDB3 /* MemoDetailView.swift */,
+				57E10E2B2C875FE900BAEDB3 /* AudioManager.swift */,
+				57E10E2D2C87601000BAEDB3 /* DataManager.swift */,
 			);
 			path = eggs;
 			sourceTree = "<group>";
@@ -125,6 +150,13 @@
 				57E10E112C860C2500BAEDB3 /* eggsUITestsLaunchTests.swift */,
 			);
 			path = eggsUITests;
+			sourceTree = "<group>";
+		};
+		57E10E282C875F5B00BAEDB3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +289,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E10E1F2C875E7900BAEDB3 /* Memo.swift in Sources */,
+				57E10E2E2C87601000BAEDB3 /* DataManager.swift in Sources */,
 				57E10DF72C860C2400BAEDB3 /* ContentView.swift in Sources */,
+				57E10E252C875F1600BAEDB3 /* MemoListView.swift in Sources */,
+				57E10E2A2C875F9C00BAEDB3 /* MemoDetailView.swift in Sources */,
+				57E10E272C875F3C00BAEDB3 /* RecordingView.swift in Sources */,
 				57E10DF52C860C2400BAEDB3 /* eggsApp.swift in Sources */,
+				57E10E2C2C875FE900BAEDB3 /* AudioManager.swift in Sources */,
+				57E10E232C875EE900BAEDB3 /* DirectoryListView.swift in Sources */,
+				57E10E212C875E9B00BAEDB3 /* Directory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
